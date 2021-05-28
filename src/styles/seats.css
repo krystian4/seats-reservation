@@ -1,0 +1,71 @@
+.flex-center{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+.full-line{
+    line-height: 32px;
+}
+  
+.square{
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 1px;
+}
+.seat{
+    border: 1px solid black;
+}
+  
+.seat-reserved{
+    background-color: #5a5a5a;
+}
+  
+.seat-chosen{
+    background-color: #f19d00;
+}
+  
+.room{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100vh;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.room-seats{
+    width: 100%;
+}
+  
+.seats-row{
+    margin: 0 auto;
+}
+.seats-legend{
+    /* padding-top: 2rem; */
+    margin-top: auto;
+    margin-bottom: 4rem;
+    min-width: 780px;
+}
+.seats-legend>span{
+    padding-left: 1rem;
+    padding-right: 3rem;
+    line-height: 50px;
+}
+.button{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000000;
+}
+.seats-legend>.button{
+    max-width: 10rem;
+    max-height: 50px;
+}
+.summary{
+    padding: 2rem 1rem;
+}
+.border{
+    border: 1px solid #000;
+}
